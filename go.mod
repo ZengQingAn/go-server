@@ -1,4 +1,4 @@
-module github.com/ZengQingan/go-server
+module github.com/ZengQingAn/go-server
 
 go 1.21
 
