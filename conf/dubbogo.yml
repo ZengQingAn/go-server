@@ -1,0 +1,13 @@
+dubbo:
+  registries:
+    "zk":
+      protocol: "zookeeper"
+      address: "127.0.0.1:2181"  # Zookeeper 的地址
+  protocols:
+    "dubbo":
+      name: "dubbo"
+      port: 20000
+  services:
+    "HelloService":
+      registry: "zk"
+      protocol: "dubbo"
